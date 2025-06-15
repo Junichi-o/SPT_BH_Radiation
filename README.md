@@ -6,6 +6,6 @@ Space Pressure Tensor model for unifying Hawking radiation and superradiance in 
 - **Figures**: 3D visualizations (fig1_schwarzschild.py, fig2_kerr.py, fig3_evaporating_kerr.py)
 - **GIF**: Time evolution (gif_evolution.py)
 - **Requirements**: numpy, plotly, matplotlib, pillow
-- **Author**: [Your Name]
+- **Author**: [Junichiro O]
 - **Date**: June 15, 2025
 - 
