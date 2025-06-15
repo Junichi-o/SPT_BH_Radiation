@@ -10,4 +10,4 @@ Space Pressure Tensor model for unifying Hawking radiation and superradiance in 
 - **Author**: Junichi-o
 - **Date**: June 15, 2025
 
-- 
+- - **コード**: [GitHub: SPT_BH_Radiation](https://github.com/Junichi-o/SPT_BH_Radiation)（2025年6月17日アップ予定）
