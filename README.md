@@ -13,6 +13,7 @@ Space Pressure Tensor model for unifying Hawking radiation and superradiance in 
 - - **コード**: [GitHub: SPT_BH_Radiation](https://github.com/Junichi-o/SPT_BH_Radiation)（2025年6月17日アップ予定）
 
 fig1_schwarzschild.py
+
 import numpy as np
 import plotly.graph_objects as go
 M0 = 1.0; epsilon, delta = 0.01, 0.01; n = 1.5; spt_alpha, s_osc = 0.1, 1e24
@@ -26,7 +27,9 @@ fig = go.Figure(data=[go.Surface(x=x, y=y, z=z)])
 fig.update_layout(title='シュワルツシルトエネルギー密度', scene=dict(xaxis_title='x/M0', yaxis_title='y/M0', zaxis_title='エネルギー密度'))
 fig.show()
 
-fig2_kerr.pyimport numpy as np
+fig2_kerr.py
+
+import numpy as np
 import plotly.graph_objects as go
 M0, alpha_spin0 = 1.0, 0.6; epsilon, delta = 0.01, 0.01; beta, gamma, n = 1.6, 0.06, 1.5; spt_alpha, s_osc = 0.1, 1e24
 r = np.linspace(1.8, 10*M0, 100); theta = np.linspace(0, np.pi, 50)
@@ -40,7 +43,8 @@ fig = go.Figure(data=[go.Surface(x=x, y=y, z=z)])
 fig.update_layout(title='カーエネルギー密度', scene=dict(xaxis_title='x/M0', yaxis_title='y/M0', zaxis_title='エネルギー密度'))
 fig.show()
 
-fig3_evaporating_kerr.py
+fig3_evaporating_kerr.py 
+
 import numpy as np
 import plotly.graph_objects as go
 M0, alpha_spin0 = 1.0, 0.6; kappa, eta = 1e-4, 2; epsilon, delta = 0.01, 0.01; beta, gamma, n = 1.6, 0.06, 1.5; spt_alpha = 0.1; s_osc = 1e24
@@ -59,7 +63,8 @@ for t in times:
 fig.update_layout(title='蒸発カーBHエネルギー密度', scene=dict(xaxis_title='x/M0', yaxis_title='y/M0', zaxis_title='エネルギー密度'))
 fig.show()
 
-gif_evolution.py
+gif_evolution.py 
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -83,7 +88,8 @@ import os; from google.colab import files
 if os.path.exists('/content/bh_evolution.gif'): files.download('/content/bh_evolution.gif'); print("ダウンロード開始！")
 else: print("ファイルなし。再実行を！")
 
-requirements.txt
+requirements.txt  
+
 numpy
 plotly
 matplotlib
